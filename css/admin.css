@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #880015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #880015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#toggleAddAdminForm {
+    background-color: #880015;
+}
+
+table {
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #880015;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.logout-btn {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout-btn input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#viewGradesSection {
+    margin-top: 30px;
+}
+
+.view-grades-table {
+    margin-top: 20px;
+}
+
+.view-grades-table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.view-grades-table th,
+.view-grades-table td {
+    padding: 8px;
+}
+
+.view-grades-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.close-view-btn {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.close-view-btn:hover {
+    background-color: #444;
+}
